@@ -47,7 +47,7 @@
 
     &.voice {
       @include list-title;
-      margin: 2px 0 8px 0;
+      margin: 4px 0 8px 0;
 
       & + input {
         @include list-title;

@@ -43,11 +43,17 @@
       height: 16px;
       border-radius: 2px;
       display: flex;
-      align-items: center;
-      justify-content: center;
+      box-sizing: border-box;
       border: 2px solid $checkbox-color;
       cursor: pointer;
       margin: 5px 16px 0 0;
+
+      svg {
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
     }
   }
 </style>

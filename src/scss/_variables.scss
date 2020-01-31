@@ -29,11 +29,13 @@ $color-success: rgba(130, 191, 151, 0.8);
 // mixins
 @mixin header-title {
   font-family: $font-m-medium;
+  font-weight: 500;
   font-size: 18px;
   color: $header-title-color;
 }
 @mixin list-title {
   font-family: $font-m-semibold;
+  font-weight: 600;
   font-size: 16px;
   line-height: 22px;
   color: $list-title-color;
