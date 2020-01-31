@@ -1,0 +1,52 @@
+// fonts
+$ff-os: 'Open Sans', Helvetica, Arial, sans-serif;
+$ff-m-medium: 'Montserrat Medium', Helvetica, Arial, sans-serif;
+$ff-m-semibold: 'Montserrat SemiBold', Helvetica, Arial, sans-serif;
+
+// timings and easings (if needed)
+$default-time: 150ms;
+$default-time-long: 400ms;
+$default-loader-time: 400ms;
+$default-easing: ease-in-out;
+$custom-easing: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+// dimensions
+$header-height: 69px;
+$header-width: 738px;
+$default-padding: 24px;
+$default-margin: 24px;
+$content-width: 786px;
+
+// colors
+$color-white: #fff;
+$color-bg: #F6F7F8;
+$list-border-color: #EAEDEF;
+$checkbox-border-color: #859EFF;
+$header-title-color: #414C5E;
+$list-title-color: #566074;
+$list-text-color: #778195;
+$color-error: rgba(255, 119, 131, 0.7);
+
+// mixins
+@mixin header-title {
+  font-family: $ff-m-medium;
+  font-size: 18px;
+  color: $header-title-color;
+}
+@mixin list-title {
+  font-family: $ff-m-semibold;
+  font-size: 16px;
+  line-height: 22px;
+  color: $list-title-color;
+}
+@mixin list-text {
+  font-family: $ff-os;
+  font-size: 16px;
+  line-height: 22px;
+  color: $list-text-color;
+}
+
+// Responsive sizes
+$responsive-small: 769px;
+$responsive-medium: 1024px;
+$responsive-large: 1200px;
