@@ -1,13 +1,19 @@
 <template>
   <div class="check-item">
     <input type="checkbox" :id="id">
-    <label :for="id"></label>
+    <label :for="id">
+      <checked-svg/>
+    </label>
   </div>
 </template>
-
 <script>
+  import checkedSvg from '@/assets/images/check-mark.svg'
+
   export default {
     name: 'Checkbox',
+    components: {
+      checkedSvg,
+    },
     props: {
       id: {
         required: true,
@@ -32,27 +38,16 @@
     }
 
     label {
+      position: relative;
       width: 16px;
       height: 16px;
       border-radius: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       border: 2px solid $checkbox-color;
-      flex-shrink: 0;
       cursor: pointer;
-      position: relative;
       margin: 5px 16px 0 0;
-      display: block;
-
-      &::before {
-        content: '';
-        position: absolute;
-        top: 2px;
-        left: 1px;
-        width: 11px;
-        height: 8px;
-        z-index: 1;
-        background: url('~@/assets/images/check-mark.svg') center / cover no-repeat;
-        display: none;
-      }
     }
   }
 </style>

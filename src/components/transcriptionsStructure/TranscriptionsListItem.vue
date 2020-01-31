@@ -1,12 +1,12 @@
 <template>
   <div class="list-item">
     <Checkbox :id="item.id" class="checkbox"></Checkbox>
-    <i class="person"></i>
+    <person-svg class="person"/>
     <div class="list-item__container">
       <EditableText v-model="item.voice" :custom-class="'voice'"></EditableText>
       <EditableText v-model="item.text" :custom-class="'text'" :type="'multiline'"></EditableText>
     </div>
-    <i class="delete" @click="deleteData(item.id)"></i>
+    <delete-svg class="delete" @click="deleteData(item.id)"/>
   </div>
 </template>
 
@@ -14,18 +14,22 @@
   import { mapActions } from 'vuex'
   import Checkbox from '@/components/elements/Checkbox.vue'
   import EditableText from '@/components/elements/EditableText.vue'
+  import deleteSvg from '@/assets/images/delete.svg'
+  import personSvg from '@/assets/images/person.svg'
 
   export default {
     name: 'TranscriptionsListItem',
+    components: {
+      Checkbox,
+      EditableText,
+      deleteSvg,
+      personSvg,
+    },
     props: {
       item: {
         required: true,
         type: Object,
       },
-    },
-    components: {
-      Checkbox,
-      EditableText,
     },
     methods: {
       ...mapActions([
@@ -45,7 +49,7 @@
     flex-flow: row nowrap;
     padding: $default-padding 53px $default-padding $default-padding;
 
-    &:hover i.list-item__delete {
+    &:hover .delete {
       visibility: visible;
       opacity: 1;
     }
@@ -54,11 +58,10 @@
       width: 100%;
     }
 
-    i {
+    svg {
       display: block;
 
       &.person {
-        background: url('~@/assets/images/person.svg') center / cover no-repeat;
         width: 26px;
         height: 26px;
         margin-right: 8px;
@@ -71,7 +74,6 @@
         right: $default-margin;
         width: 16px;
         height: 20px;
-        background: url('~@/assets/images/delete.svg') center / cover no-repeat;
         cursor: pointer;
         visibility: hidden;
         opacity: 0;

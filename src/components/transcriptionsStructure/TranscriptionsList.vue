@@ -5,24 +5,26 @@
         <TranscriptionsListItem :item="item"></TranscriptionsListItem>
       </li>
     </transition-group>
-    <i class="list-content--add-row" @click="addNewData"></i>
+    <add-row-svg class="list-content--add-row" @click="addNewData"/>
   </div>
 </template>
 
 <script>
   import { mapActions } from 'vuex'
   import TranscriptionsListItem from '@/components/transcriptionsStructure/TranscriptionsListItem.vue'
+  import addRowSvg from '@/assets/images/add-row.svg'
 
   export default {
     name: 'TranscriptionsList',
+    components: {
+      TranscriptionsListItem,
+      addRowSvg,
+    },
     props: {
       listData: {
         required: true,
         type: Array,
       },
-    },
-    components: {
-      TranscriptionsListItem,
     },
     methods: {
       ...mapActions([
@@ -59,7 +61,6 @@
     }
 
     &--add-row {
-      background: url('~@/assets/images/add-row.svg') center / cover no-repeat;
       width: 32px;
       height: 32px;
       margin: 0 auto $default-margin auto;

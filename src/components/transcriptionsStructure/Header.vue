@@ -3,16 +3,23 @@
     <div class="header-content">
       <h1>Transcriptions</h1>
       <aside>
-        <i class="upload" @click="uploadData"></i>
-        <i class="fetch" @click="fetchData"></i>
+        <uploadSvg class="upload" @click="uploadData"/>
+        <fetch-svg class="fetch" @click="fetchData"/>
       </aside>
     </div>
   </header>
 </template>
 
 <script>
+  import uploadSvg from '@/assets/images/upload.svg'
+  import fetchSvg from '@/assets/images/fetch-document.svg'
+
   export default {
     name: 'Header',
+    components: {
+      uploadSvg,
+      fetchSvg,
+    },
     methods: {
       uploadData() {
         this.$emit('uploadData')
@@ -28,14 +35,14 @@
   header {
     background-color: #FFFFFF;
     width: 100%;
-    height: $header-height;
+    height: $default-header-height;
     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.24), 0 1px 3px 0 rgba(0,0,0,0.12);
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
 
     .header-content {
-      width: $header-width;
+      width: $default-header-width;
       padding: 0 $default-padding;
       display: flex;
       flex-flow: row nowrap;
@@ -46,20 +53,12 @@
         @include header-title;
       }
 
-      i {
+      svg {
         width: 24px;
         height: 24px;
         cursor: pointer;
         margin-left: $default-margin;
         display: inline-block;
-
-        &.upload {
-          background: url('~@/assets/images/upload.svg') center / cover no-repeat;
-        }
-
-        &.fetch {
-          background: url('~@/assets/images/fetch-document.svg') center / cover no-repeat;
-        }
       }
     }
   }

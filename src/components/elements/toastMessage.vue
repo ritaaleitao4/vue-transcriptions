@@ -6,7 +6,7 @@
                 role="button"
                 class="toast-message--dismiss"
                 @click="dismissToast()">
-          X
+          x
         </button>
         <h3 class="toast-message--title">
           {{ errorMessage ? 'Error' : 'Success' }}

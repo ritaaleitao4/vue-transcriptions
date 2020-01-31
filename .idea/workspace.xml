@@ -2,23 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49b947b1-8bc1-440c-abab-66b4fd5d8db9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-Medium.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-SemiBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-SemiBold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-SemiBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-SemiBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OpenSans/OpenSans-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OpenSans/OpenSans-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OpenSans/OpenSans-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OpenSans/OpenSans-Regular.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-SemiBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-SemiBold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/OpenSans/OpenSans-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/OpenSans/OpenSans-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clone-deep/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/clone-deep/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clone-deep/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/clone-deep/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clone-deep/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/clone-deep/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clone-deep/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/clone-deep/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/for-own/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/for-own/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/for-own/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/for-own/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.tail/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.tail/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.tail/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.tail/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mixin-object/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mixin-object/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mixin-object/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mixin-object/node_modules/for-in/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mixin-object/node_modules/for-in/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mixin-object/node_modules/for-in/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mixin-object/node_modules/for-in/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mixin-object/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass-loader/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass-loader/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass-loader/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/lib/formatSassError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/lib/importsToResolve.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/lib/loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/lib/normalizeOptions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/lib/proxyCustomImporters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/lib/webpackImporter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/node_modules/pify/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/node_modules/pify/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/node_modules/pify/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/node_modules/pify/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass-loader/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/shallow-clone/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/shallow-clone/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/shallow-clone/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/shallow-clone/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/shallow-clone/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/shallow-clone/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/shallow-clone/node_modules/kind-of/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/shallow-clone/node_modules/kind-of/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/shallow-clone/node_modules/kind-of/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/shallow-clone/node_modules/kind-of/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/shallow-clone/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/shallow-clone/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vue-hot-reload-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vue-hot-reload-api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vue-loader/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vue-loader/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vue-loader/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vue-loader/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vue-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vue-loader/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/Checkbox.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/Checkbox.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/toastMessage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/toastMessage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/transcriptionsStructure/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/transcriptionsStructure/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsListItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsListItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,84 +66,105 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/api/transcriptionsEndpoints.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/scss/_fonts.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/fonts/OpenSans/OpenSans-Regular.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-Medium.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/fonts/Montserrat/Montserrat-SemiBold.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="40" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/fonts/Montserrat/OFL.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/fonts/OpenSans/LICENSE.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="345">
+                  <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/transcriptionsStructure/Header.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="212">
+                  <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+                  <folding>
+                    <element signature="e#261#311#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsListItem.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1662">
+                  <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+                  <folding>
+                    <element signature="e#452#485#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/elements/Checkbox.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="115">
+                  <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/elements/toastMessage.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="23">
+                  <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/scss/_variables.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="138">
+                  <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsList.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="161">
+                  <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+                  <folding>
+                    <element signature="e#342#375#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/vue.config.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="390">
+                  <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>nobackground</find>
-      <find>.svg</find>
-      <find>felx-</find>
-      <find>uploadTranscriptionsData</find>
-      <find>errorm</find>
-      <find>removeTranscriptionMessages</find>
       <find>sucess</find>
       <find>-error</find>
       <find>checkbox-border-color</find>
       <find>$checkbox-border-color</find>
       <find>$ff</find>
-      <find>$default-time</find>
       <find>$default-time-l</find>
       <find>loadContainerStyle</find>
       <find>$header-height</find>
@@ -119,6 +179,17 @@
       <find>'@/</find>
       <find>build</find>
       <find>font</find>
+      <find>.svg</find>
+      <find>url('</find>
+      <find>.text</find>
+      <find>24px</find>
+      <find>list-item</find>
+      <find>.i</find>
+      <find>$default-padding</find>
+      <find>header-height</find>
+      <find>header-width</find>
+      <find>display: flex</find>
+      <find>$default-time</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -129,21 +200,26 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/assets/images/loading.svg" />
-        <option value="$PROJECT_DIR$/src/components/elements/Checkbox.vue" />
         <option value="$PROJECT_DIR$/src/components/elements/ErrorMessage.vue" />
         <option value="$PROJECT_DIR$/src/components/elements/Loading.vue" />
-        <option value="$PROJECT_DIR$/src/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/src/pages/TranscriptionsView.vue" />
         <option value="$PROJECT_DIR$/src/store/storeModules.js" />
-        <option value="$PROJECT_DIR$/vue.config.js" />
         <option value="$PROJECT_DIR$/src/scss/_main.scss" />
         <option value="$PROJECT_DIR$/src/scss/reset.scss" />
         <option value="$PROJECT_DIR$/src/scss/_generic.scss" />
         <option value="$PROJECT_DIR$/src/scss/main.scss" />
         <option value="$PROJECT_DIR$/src/App.vue" />
-        <option value="$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsList.vue" />
         <option value="$PROJECT_DIR$/src/api/transcriptionsEndpoints.js" />
         <option value="$PROJECT_DIR$/src/scss/_fonts.scss" />
+        <option value="$PROJECT_DIR$/package-lock.json" />
+        <option value="$PROJECT_DIR$/vue.config.js" />
+        <option value="$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsList.vue" />
+        <option value="$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsListItem.vue" />
+        <option value="$PROJECT_DIR$/src/components/transcriptionsStructure/Header.vue" />
+        <option value="$PROJECT_DIR$/src/components/elements/Checkbox.vue" />
+        <option value="$PROJECT_DIR$/src/scss/_variables.scss" />
+        <option value="$PROJECT_DIR$/src/components/elements/toastMessage.vue" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -158,7 +234,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,6 +250,12 @@
               <item name="frontend-challange-rita-leitao" type="b2602c69:ProjectViewProjectNode" />
               <item name="frontend-challange-rita-leitao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend-challange-rita-leitao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend-challange-rita-leitao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -189,16 +270,33 @@
               <item name="frontend-challange-rita-leitao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-              <item name="Montserrat" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frontend-challange-rita-leitao" type="b2602c69:ProjectViewProjectNode" />
               <item name="frontend-challange-rita-leitao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-              <item name="OpenSans" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend-challange-rita-leitao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend-challange-rita-leitao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend-challange-rita-leitao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend-challange-rita-leitao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="transcriptionsStructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend-challange-rita-leitao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend-challange-rita-leitao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frontend-challange-rita-leitao" type="b2602c69:ProjectViewProjectNode" />
@@ -216,6 +314,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,17 +363,18 @@
       <workItem from="1580487109924" duration="294000" />
       <workItem from="1580487571654" duration="703000" />
       <workItem from="1580488711634" duration="156000" />
+      <workItem from="1580504083375" duration="3097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14296000" />
+    <option name="totallyTimeSpent" value="17313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3090129" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1602289" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -289,7 +389,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" weight="0.35503685" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4985694" visible="true" weight="0.26781327" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4985694" visible="true" weight="0.31695333" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -310,16 +410,6 @@
     <entry file="file://$PROJECT_DIR$/src/assets/images/loading.svg" />
     <entry file="file://$PROJECT_DIR$/src/assets/images/delete.svg" />
     <entry file="file://$PROJECT_DIR$/src/components/elements/Loading.vue" />
-    <entry file="file://$PROJECT_DIR$/src/components/elements/toastMessage.vue" />
-    <entry file="file://$PROJECT_DIR$/src/store/storeModules.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsListItem.vue" />
-    <entry file="file://$PROJECT_DIR$/src/scss/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="40" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.editorconfig" />
     <entry file="file://$USER_HOME$/Downloads/frontend-challenge-master 3/src/pages/TranscriptionsView.vue">
       <provider selected="true" editor-type-id="text-editor">
@@ -332,14 +422,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.js" />
-    <entry file="file://$PROJECT_DIR$/vue.config.js" />
     <entry file="file://$PROJECT_DIR$/src/scss/main.scss" />
     <entry file="file://$PROJECT_DIR$/src/scss/_generic.scss" />
-    <entry file="file://$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsList.vue" />
     <entry file="file://$PROJECT_DIR$/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/TranscriptionsView.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -347,13 +432,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.eslintrc.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/api/transcriptionsEndpoints.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -378,6 +456,91 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/TranscriptionsView.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/storeModules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="91" column="24" lean-forward="true" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsListItem.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1662">
+          <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+          <folding>
+            <element signature="e#452#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+          <folding>
+            <element signature="e#342#375#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/elements/Checkbox.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/elements/toastMessage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/transcriptionsStructure/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+          <folding>
+            <element signature="e#261#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
         </state>
       </provider>
     </entry>

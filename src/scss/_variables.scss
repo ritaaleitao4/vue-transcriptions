@@ -4,13 +4,13 @@ $font-m-medium: 'Montserrat Medium', Helvetica, Arial, sans-serif;
 $font-m-semibold: 'Montserrat SemiBold', Helvetica, Arial, sans-serif;
 
 // timings and easings
-$default-time: 150ms;
+$default-time: 250ms;
 $default-time-loading: 800ms;
 $default-easing: ease-in-out;
 
 // dimensions
-$header-height: 69px;
-$header-width: 738px;
+$default-header-height: 69px;
+$default-header-width: 738px;
 $default-padding: 24px;
 $default-margin: 24px;
 $content-width: 786px;
