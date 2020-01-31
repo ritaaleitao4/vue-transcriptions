@@ -23,7 +23,7 @@
       display: none;
 
       &:checked + label {
-        background-color: $checkbox-border-color;
+        background-color: $checkbox-color;
 
         &::before {
           display: block;
@@ -35,7 +35,7 @@
       width: 16px;
       height: 16px;
       border-radius: 2px;
-      border: 2px solid $checkbox-border-color;
+      border: 2px solid $checkbox-color;
       flex-shrink: 0;
       cursor: pointer;
       position: relative;

@@ -1,18 +1,18 @@
 <template>
   <transition name="fade">
-    <div class="toast" v-if="errorMessage">
-      <section class="toast-error">
+    <div class="toast" v-if="errorMessage || successMessage" >
+      <section class="toast-message" :class="infoMessage">
         <button aria-pressed="false"
                 role="button"
-                class="toast-error--dismiss"
+                class="toast-message--dismiss"
                 @click="dismissToast()">
           X
         </button>
-        <h3 class="toast-error--title">
-          Error
+        <h3 class="toast-message--title">
+          {{ errorMessage ? 'Error' : 'Success' }}
         </h3>
-        <p class="toast-error--description">
-          {{ errorMessage }}
+        <p class="toast-message--description">
+          {{ errorMessage || successMessage }}
         </p>
       </section>
     </div>
@@ -26,34 +26,53 @@
     name: 'ErrorMessage',
     props: {
       errorMessage: String,
+      successMessage: String,
+    },
+    computed: {
+      infoMessage() {
+        if (this.successMessage) {
+          return 'toast-message--green'
+        }
+        return 'toast-message--red'
+      },
     },
     methods: {
       ...mapActions([
-        'removeTranscriptionError',
+        'removeTranscriptionMessages',
       ]),
       dismissToast() {
-        this.removeTranscriptionError()
+        this.removeTranscriptionMessages()
       },
     },
   }
 </script>
 
 <style scoped lang="scss">
+  $color-list: (
+    red: $color-error,
+    green: $color-success,
+  );
+
   .toast {
     position: absolute;
     right: 11px;
     top: 82px;
     z-index: 10;
-    font-family: $ff-m-medium;
+    font-family: $font-m-medium;
 
-    &-error {
+    &-message {
       width: 200px;
       padding: 10px;
-      background-color: $color-error;
       border-radius: 5px;
       position: relative;
       font-size: 13px;
       color: $color-white;
+
+      @each $key, $val in $color-list {
+        &--#{$key} {
+          background-color: #{$val};
+        }
+      }
 
       &--dismiss {
         position: absolute;

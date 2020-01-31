@@ -4,14 +4,20 @@ import transcriptionsEndpoints from '@/api/transcriptionsEndpoints'
 export default {
   state: {
     transcriptionsData: [],
-    errorMessage: '',
+    messages: {
+      successMessage: '',
+      errorMessage: '',
+    },
   },
   getters: {
     getInfoDataTranscriptions(state) {
       return state.transcriptionsData
     },
     getInfoDataErrorMessage(state) {
-      return state.errorMessage
+      return state.messages.errorMessage
+    },
+    getInfoDataSuccessMessage(state) {
+      return state.messages.successMessage
     },
   },
   mutations: {
@@ -29,11 +35,24 @@ export default {
       }
       state.transcriptionsData.push(listItem)
     },
-    displayError(state, payload) {
-      state.errorMessage = payload
+    displaySucecss(state, payload) {
+      if (state.messages.errorMessage) {
+        state.messages.errorMessage = ''
+      }
+      state.messages.successMessage = payload
 
       window.setTimeout(() => {
-        state.errorMessage = ''
+        state.messages.successMessage = ''
+      }, 3000)
+    },
+    displayError(state, payload) {
+      if (state.messages.successMessage) {
+        state.messages.successMessage = ''
+      }
+      state.messages.errorMessage = payload
+
+      window.setTimeout(() => {
+        state.messages.errorMessage = ''
       }, 3000)
     },
   },
@@ -49,8 +68,9 @@ export default {
           }
         })
     },
-    removeTranscriptionError(context) {
+    removeTranscriptionMessages(context) {
       context.commit('displayError', '')
+      context.commit('displaySucecss', '')
     },
     addNewTranscription(context) {
       context.commit('addListItem')
@@ -66,7 +86,7 @@ export default {
       } else {
         await transcriptionsEndpoints.saveTranscriptions(payload)
           .then(() => {
-            //
+            context.commit('displaySucecss', 'Transcriptions saved successfully.')
           })
           .catch((error) => {
             if (error) {

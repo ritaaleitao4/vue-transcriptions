@@ -1,7 +1,8 @@
 <template>
   <div class="container">
     <Header @uploadData="handleDataUpload" @fetchData="handleDataFetch"></Header>
-    <ErrorMessage :error-message="errorMessage"></ErrorMessage>
+    <loading v-if="showLoading" spinColor="purple"></loading>
+    <toast-message :error-message="errorMessage" :success-message="successMessage"></toast-message>
     <section>
       <TranscriptionsList :list-data="data"></TranscriptionsList>
     </section>
@@ -12,25 +13,36 @@
   import { mapGetters, mapActions } from 'vuex'
   import Header from '@/components/transcriptionsStructure/Header.vue'
   import TranscriptionsList from '@/components/transcriptionsStructure/TranscriptionsList.vue'
-  import ErrorMessage from '@/components/elements/ErrorMessage.vue'
+  import toastMessage from '@/components/elements/toastMessage.vue'
+  import Loading from '@/components/elements/Loading.vue'
 
   export default {
     name: 'TranscriptionsView',
     components: {
       Header,
       TranscriptionsList,
-      ErrorMessage,
+      toastMessage,
+      Loading,
+    },
+    data() {
+      return {
+        showLoading: false,
+      }
     },
     computed: {
       ...mapGetters([
         'getInfoDataTranscriptions',
         'getInfoDataErrorMessage',
+        'getInfoDataSuccessMessage',
       ]),
       data() {
         return this.getInfoDataTranscriptions
       },
       errorMessage() {
         return this.getInfoDataErrorMessage
+      },
+      successMessage() {
+        return this.getInfoDataSuccessMessage
       },
     },
     methods: {
@@ -42,7 +54,10 @@
         this.uploadTranscriptionsData(this.getInfoDataTranscriptions)
       },
       handleDataFetch() {
-        this.actionGetTranscriptionsData()
+        this.showLoading = true
+        this.actionGetTranscriptionsData().then(() => {
+          this.showLoading = false
+        })
       },
     },
   }
