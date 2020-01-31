@@ -1,7 +1,7 @@
 <template>
   <div>
     <span :class="[{'empty': !value}, {'hide': activeInput}, customClass]" @click="toogleInput">
-      {{ value ? value : 'Click to add content here...' }}
+      {{ setText }}
     </span>
     <input v-if="type !== 'multiline'" ref="input" type="text" :value="value" @input="inputEvent" @blur="toogleInput">
     <textarea v-if="type === 'multiline'" ref="input" :value="value" @input="inputEvent" @blur="toogleInput"></textarea>
@@ -23,6 +23,19 @@
       return {
         activeInput: false,
       }
+    },
+    computed: {
+      setText() {
+        if (this.value) {
+          return this.value
+        }
+
+        if (this.type === 'multiline') {
+          return 'Click to add text'
+        }
+
+        return 'Click to add voice'
+      },
     },
     methods: {
       toogleInput() {
