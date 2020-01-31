@@ -42,7 +42,8 @@
     justify-content: center;
 
     .header-content {
-      width: $default-header-width;
+      width: 100%;
+      max-width: $default-header-width;
       padding: 0 $default-padding;
       display: flex;
       flex-flow: row nowrap;

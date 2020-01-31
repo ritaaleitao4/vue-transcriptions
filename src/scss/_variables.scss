@@ -10,7 +10,7 @@ $default-easing: ease-in-out;
 
 // dimensions
 $default-header-height: 69px;
-$default-header-width: 738px;
+$default-header-width: 690px;
 $default-padding: 24px;
 $default-margin: 24px;
 $content-width: 786px;
@@ -31,7 +31,6 @@ $color-success: rgba(130, 191, 151, 0.8);
   font-family: $font-m-medium;
   font-size: 18px;
   color: $header-title-color;
-  margin-left: $default-margin;
 }
 @mixin list-title {
   font-family: $font-m-semibold;
