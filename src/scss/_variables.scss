@@ -31,6 +31,7 @@ $color-success: rgba(130, 191, 151, 0.8);
   font-family: $font-m-medium;
   font-size: 18px;
   color: $header-title-color;
+  margin-left: $default-margin;
 }
 @mixin list-title {
   font-family: $font-m-semibold;
