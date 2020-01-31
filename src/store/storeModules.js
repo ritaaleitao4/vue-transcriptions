@@ -64,7 +64,7 @@ export default {
         })
         .catch((error) => {
           if (error) {
-            context.commit('displayError', 'An error occured while retrieving the transcriptions. Please try again.')
+            context.commit('displayError', 'An error occurred while getting transcriptions from the server. Please try again.')
           }
         })
     },
@@ -81,8 +81,8 @@ export default {
     async uploadTranscriptionsData(context, payload) {
       const invalidFields = payload.filter((element) => Object.values(element).some((x) => x === null || x === '')).length
 
-      if (invalidFields) {
-        context.commit('displayError', 'The list you\'re trying to upload is empty or has invalid or non saved fields.')
+      if (invalidFields || payload.length < 1) {
+        context.commit('displayError', 'The list is empty or has invalid or non saved fields.')
       } else {
         await transcriptionsEndpoints.saveTranscriptions(payload)
           .then(() => {

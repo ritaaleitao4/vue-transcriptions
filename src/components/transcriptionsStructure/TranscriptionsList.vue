@@ -51,7 +51,7 @@
         border-top: 1px solid $list-border-color;
         border-right: 1px solid $list-border-color;
         border-left: 1px solid $list-border-color;
-
+        display: flex;
         &:last-child {
           border-bottom: 1px solid $list-border-color;
         }
