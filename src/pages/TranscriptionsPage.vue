@@ -1,10 +1,10 @@
 <template>
   <div class="container">
-    <Header @uploadData="handleDataUpload" @fetchData="handleDataFetch"></Header>
-    <loading v-if="showLoading" spinColor="purple"></loading>
-    <toast-message :error-message="errorMessage" :success-message="successMessage"></toast-message>
+    <Header @uploadData="handleDataUpload" @fetchData="handleDataFetch"/>
+    <loading v-if="showLoading" spinColor="purple"/>
+    <toast-message :error-message="errorMessage" :success-message="successMessage"/>
     <section>
-      <TranscriptionsList :list-data="data"></TranscriptionsList>
+      <transcriptions-list :list-data="data"/>
     </section>
   </div>
 </template>
@@ -17,7 +17,7 @@
   import Loading from '@/components/elements/Loading.vue'
 
   export default {
-    name: 'TranscriptionsView',
+    name: 'Transcriptions',
     components: {
       Header,
       TranscriptionsList,

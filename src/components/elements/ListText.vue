@@ -1,22 +1,22 @@
 <template>
   <div>
-    <span :class="[{'empty': !value}, {'hide': activeInput}, customClass]" @click="toogleInput">
+    <span :class="[{'empty': !value}, {'hide': activeInput}, element]" @click="toogleActiveInput">
       {{ setText }}
     </span>
-    <input v-if="type !== 'multiline'" ref="input" type="text" :value="value" @input="inputEvent" @blur="toogleInput">
-    <textarea v-if="type === 'multiline'" ref="input" :value="value" @input="inputEvent" @blur="toogleInput"></textarea>
+    <input v-if="type !== 'textArea'" ref="input" type="text" :value="value" @input="setValue" @blur="toogleActiveInput">
+    <textarea v-if="type === 'textArea'" ref="input" :value="value" @input="setValue" @blur="toogleActiveInput"></textarea>
   </div>
 </template>
 
 <script>
   export default {
-    name: 'EditableText',
+    name: 'List-text',
     props: {
       value: {
         required: true,
         type: String,
       },
-      customClass: String,
+      element: String,
       type: String,
     },
     data() {
@@ -30,7 +30,7 @@
           return this.value
         }
 
-        if (this.type === 'multiline') {
+        if (this.type === 'textArea') {
           return 'Click to add text'
         }
 
@@ -38,7 +38,7 @@
       },
     },
     methods: {
-      toogleInput() {
+      toogleActiveInput() {
         this.activeInput = !this.activeInput
         if (this.activeInput) {
           window.setTimeout(() => {
@@ -46,8 +46,8 @@
           }, 50)
         }
       },
-      inputEvent(ev) {
-        this.$emit('input', ev.target.value.trim())
+      setValue(ev) {
+        this.$emit('input', ev.target.value)
       },
     },
   }

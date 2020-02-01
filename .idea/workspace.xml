@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49b947b1-8bc1-440c-abab-66b4fd5d8db9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/EditableText.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/ListText.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/Loading.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/Loading.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/toastMessage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/toastMessage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/transcriptionsStructure/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/transcriptionsStructure/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsListItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsListRow.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TranscriptionsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TranscriptionsPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,24 +20,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/elements/ListText.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="161">
+              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/elements/EditableText.vue">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsListRow.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="230">
+              <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding>
-                <element signature="e#651#709#0" />
-                <element signature="e#724#1023#0" />
+                <element signature="e#452#485#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -48,36 +63,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/TranscriptionsPage.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding>
+                <element signature="e#409#454#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/transcriptionsStructure/Header.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+            <state relative-caret-position="621">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               <folding>
-                <element signature="e#261#311#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/storeModules.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1469">
-              <caret line="91" column="24" lean-forward="true" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsListItem.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="985">
-              <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
-              <folding>
-                <element signature="e#452#485#0" expanded="true" />
+                <element signature="e#271#321#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,26 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/elements/Checkbox.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1127">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/elements/toastMessage.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="276">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -113,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsList.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1274">
-              <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+            <state relative-caret-position="138">
+              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
               <folding>
                 <element signature="e#342#375#0" expanded="true" />
               </folding>
@@ -126,12 +111,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$header-height</find>
-      <find>$responsive-small</find>
-      <find>$responsive-medium</find>
-      <find>$responsive-large</find>
-      <find>errorMessage</find>
-      <find>removeTranscriptionError</find>
       <find>.scss</find>
       <find>main.s</find>
       <find>'@/</find>
@@ -153,9 +132,15 @@
       <find>lodash</find>
       <find>semibold</find>
       <find>2px</find>
-      <find>.i</find>
       <find>insert</find>
       <find>click to</find>
+      <find>front-end</find>
+      <find>TranscriptionsView</find>
+      <find>transcriptionsListItem</find>
+      <find>.i</find>
+      <find>$emit</find>
+      <find>EditableText</find>
+      <find>customClass</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,7 +152,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/assets/images/loading.svg" />
         <option value="$PROJECT_DIR$/src/components/elements/ErrorMessage.vue" />
-        <option value="$PROJECT_DIR$/src/components/elements/Loading.vue" />
         <option value="$PROJECT_DIR$/src/pages/TranscriptionsView.vue" />
         <option value="$PROJECT_DIR$/src/store/storeModules.js" />
         <option value="$PROJECT_DIR$/src/scss/_main.scss" />
@@ -179,16 +163,21 @@
         <option value="$PROJECT_DIR$/src/scss/_fonts.scss" />
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/vue.config.js" />
-        <option value="$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsList.vue" />
         <option value="$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsListItem.vue" />
-        <option value="$PROJECT_DIR$/src/components/elements/toastMessage.vue" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/components/transcriptionsStructure/Header.vue" />
         <option value="$PROJECT_DIR$/src/scss/_variables.scss" />
-        <option value="$PROJECT_DIR$/src/components/elements/Checkbox.vue" />
         <option value="$PROJECT_DIR$/src/components/elements/EditableText.vue" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/manifest.json" />
+        <option value="$PROJECT_DIR$/src/router.js" />
+        <option value="$PROJECT_DIR$/src/components/transcriptionsStructure/Header.vue" />
+        <option value="$PROJECT_DIR$/src/components/elements/Loading.vue" />
+        <option value="$PROJECT_DIR$/src/components/elements/toastMessage.vue" />
+        <option value="$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsList.vue" />
+        <option value="$PROJECT_DIR$/src/pages/TranscriptionsPage.vue" />
+        <option value="$PROJECT_DIR$/src/components/elements/Checkbox.vue" />
+        <option value="$PROJECT_DIR$/src/components/elements/ListText.vue" />
+        <option value="$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsListRow.vue" />
       </list>
     </option>
   </component>
@@ -213,49 +202,12 @@
             <path>
               <item name="frontend-challange-rita-leitao" type="b2602c69:ProjectViewProjectNode" />
               <item name="frontend-challange-rita-leitao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frontend-challange-rita-leitao" type="b2602c69:ProjectViewProjectNode" />
               <item name="frontend-challange-rita-leitao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend-challange-rita-leitao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend-challange-rita-leitao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend-challange-rita-leitao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend-challange-rita-leitao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend-challange-rita-leitao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend-challange-rita-leitao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-              <item name="Montserrat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend-challange-rita-leitao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend-challange-rita-leitao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-              <item name="OpenSans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontend-challange-rita-leitao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend-challange-rita-leitao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frontend-challange-rita-leitao" type="b2602c69:ProjectViewProjectNode" />
@@ -348,17 +300,17 @@
       <workItem from="1580487109924" duration="294000" />
       <workItem from="1580487571654" duration="703000" />
       <workItem from="1580488711634" duration="156000" />
-      <workItem from="1580504083375" duration="6007000" />
+      <workItem from="1580504083375" duration="7553000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20223000" />
+    <option name="totallyTimeSpent" value="21769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1602289" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37768242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -373,7 +325,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" weight="0.35503685" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4985694" visible="true" weight="0.07616708" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4985694" visible="true" weight="0.2960688" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -382,6 +334,24 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/transcriptionsStructure/Header.vue</url>
+          <line>13</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/elements/ListText.vue</url>
+          <line>21</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md" />
@@ -393,7 +363,6 @@
     <entry file="file://$PROJECT_DIR$/src/assets/images/upload.svg" />
     <entry file="file://$PROJECT_DIR$/src/assets/images/loading.svg" />
     <entry file="file://$PROJECT_DIR$/src/assets/images/delete.svg" />
-    <entry file="file://$PROJECT_DIR$/src/components/elements/Loading.vue" />
     <entry file="file://$PROJECT_DIR$/.editorconfig" />
     <entry file="file://$USER_HOME$/Downloads/frontend-challenge-master 3/src/pages/TranscriptionsView.vue">
       <provider selected="true" editor-type-id="text-editor">
@@ -450,9 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/TranscriptionsView.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -460,54 +426,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/transcriptionsStructure/Header.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
-          <folding>
-            <element signature="e#261#311#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
           <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/elements/toastMessage.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsList.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1274">
-          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
-          <folding>
-            <element signature="e#342#375#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsListItem.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="985">
-          <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
-          <folding>
-            <element signature="e#452#485#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/elements/Checkbox.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
@@ -538,14 +460,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/elements/EditableText.vue">
+    <entry file="file://$PROJECT_DIR$/src/components/elements/toastMessage.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="253">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/elements/Loading.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/transcriptionsStructure/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding>
-            <element signature="e#651#709#0" />
-            <element signature="e#724#1023#0" />
+            <element signature="e#271#321#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="e#342#375#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/TranscriptionsPage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#409#454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/elements/Checkbox.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/transcriptionsStructure/TranscriptionsListRow.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#452#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/elements/ListText.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>

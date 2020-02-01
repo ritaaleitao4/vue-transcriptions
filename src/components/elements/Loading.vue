@@ -8,6 +8,7 @@
 
 <script>
   export default {
+    name: 'loading',
     props: {
       spinColor: {
         type: String,

@@ -23,7 +23,7 @@
   import { mapActions } from 'vuex'
 
   export default {
-    name: 'ErrorMessage',
+    name: 'ToastMessage',
     props: {
       errorMessage: String,
       successMessage: String,

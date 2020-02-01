@@ -3,7 +3,7 @@
     <div class="header-content">
       <h1>Transcriptions</h1>
       <aside>
-        <uploadSvg class="upload" @click="uploadData"/>
+        <upload-svg class="upload" @click="uploadData"/>
         <fetch-svg class="fetch" @click="fetchData"/>
       </aside>
     </div>

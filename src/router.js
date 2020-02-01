@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import TranscriptionsView from './pages/TranscriptionsView.vue'
+import TranscriptionsPage from './pages/TranscriptionsPage.vue'
 
 Vue.use(Router)
 
@@ -11,7 +11,7 @@ export default new Router({
     {
       path: '/',
       name: 'transcriptions',
-      component: TranscriptionsView,
+      component: TranscriptionsPage,
     },
   ],
 })

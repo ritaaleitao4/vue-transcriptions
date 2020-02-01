@@ -2,7 +2,7 @@
   <div class="list-content">
     <transition-group name="list-anim" tag="ul">
       <li v-for="item in listData" :key="item.id">
-        <TranscriptionsListItem :item="item"></TranscriptionsListItem>
+        <transcriptions-list-row :item="item"/>
       </li>
     </transition-group>
     <add-row-svg class="list-content--add-row" @click="addNewData"/>
@@ -11,13 +11,13 @@
 
 <script>
   import { mapActions } from 'vuex'
-  import TranscriptionsListItem from '@/components/transcriptionsStructure/TranscriptionsListItem.vue'
+  import TranscriptionsListRow from '@/components/transcriptionsStructure/TranscriptionsListRow.vue'
   import addRowSvg from '@/assets/images/add-row.svg'
 
   export default {
-    name: 'TranscriptionsList',
+    name: 'Transcriptions-list',
     components: {
-      TranscriptionsListItem,
+      TranscriptionsListRow,
       addRowSvg,
     },
     props: {

@@ -3,8 +3,8 @@
     <Checkbox :id="item.id" class="checkbox"></Checkbox>
     <person-svg class="person"/>
     <div class="list-item__container">
-      <EditableText v-model="item.voice" :custom-class="'voice'"></EditableText>
-      <EditableText v-model="item.text" :custom-class="'text'" :type="'multiline'"></EditableText>
+      <list-text v-model="item.voice" element="voice"></list-text>
+      <list-text v-model="item.text" element="text" type="textArea"></list-text>
     </div>
     <delete-svg class="delete" @click="deleteData(item.id)"/>
   </div>
@@ -13,15 +13,15 @@
 <script>
   import { mapActions } from 'vuex'
   import Checkbox from '@/components/elements/Checkbox.vue'
-  import EditableText from '@/components/elements/EditableText.vue'
+  import ListText from '@/components/elements/ListText.vue'
   import deleteSvg from '@/assets/images/delete.svg'
   import personSvg from '@/assets/images/person.svg'
 
   export default {
-    name: 'TranscriptionsListItem',
+    name: 'Transcriptions-list-row',
     components: {
       Checkbox,
-      EditableText,
+      ListText,
       deleteSvg,
       personSvg,
     },
