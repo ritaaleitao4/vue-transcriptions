@@ -1,17 +1,17 @@
-import Vue from 'vue';
-import Vuex from 'vuex';
+import Vue from 'vue'
+import Vuex from 'vuex'
 import { createLocalVue, shallowMount } from '@vue/test-utils'
-import Toast from '@components/elements/toastMessage.vue'
+import Toast from '@/components/elements/toastMessage.vue'
 
 const localVue = createLocalVue()
 localVue.use(Vuex)
 Vue.use(Vuex)
 
-describe('Toast Component Tests', () => {
-  let wrapper
-  let store
-  let actions
+let wrapper
+let store
+let actions
 
+describe('Toast Component Tests', () => {
   beforeEach(() => {
     actions = {
       removeTranscriptionMessages: jest.fn(() => true)

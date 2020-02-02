@@ -10,7 +10,7 @@
   import checkedSvg from '@/assets/images/check-mark.svg'
 
   export default {
-    name: 'Checkbox',
+    name: 'Checkbox-item',
     components: {
       checkedSvg,
     },

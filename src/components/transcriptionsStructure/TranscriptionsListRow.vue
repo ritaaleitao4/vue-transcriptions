@@ -1,10 +1,10 @@
 <template>
   <div class="list-item">
-    <Checkbox :checkbox-id="item.id" class="checkbox"></Checkbox>
+    <checkbox-item :checkbox-id="item.id" class="checkbox"/>
     <person-svg class="person"/>
     <div class="list-item__container">
-      <list-text v-model="item.voice" element="voice"></list-text>
-      <list-text v-model="item.text" element="text" type="textArea"></list-text>
+      <list-text v-model="item.voice" element="voice"/>
+      <list-text v-model="item.text" element="text" type="textArea"/>
     </div>
     <delete-svg class="delete" @click="deleteData(item.id)"/>
   </div>
@@ -12,16 +12,16 @@
 
 <script>
   import { mapActions } from 'vuex'
-  import Checkbox from '@/components/elements/Checkbox.vue'
-  import ListText from '@/components/elements/ListText.vue'
+  import checkboxItem from '@/components/elements/CheckboxItem.vue'
+  import listText from '@/components/elements/ListText.vue'
   import deleteSvg from '@/assets/images/delete.svg'
   import personSvg from '@/assets/images/person.svg'
 
   export default {
     name: 'Transcriptions-list-row',
     components: {
-      Checkbox,
-      ListText,
+      checkboxItem,
+      listText,
       deleteSvg,
       personSvg,
     },

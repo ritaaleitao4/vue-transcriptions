@@ -1,4 +1,4 @@
-import storeActions from '@/store/storeModules.js'
+import storeActions from '@/store/storeModules'
 
 let state
 const transcriptionDataMock = [

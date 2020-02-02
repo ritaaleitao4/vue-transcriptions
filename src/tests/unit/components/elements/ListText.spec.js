@@ -1,12 +1,11 @@
 import Vue from 'vue'
 import { createLocalVue, shallowMount } from '@vue/test-utils'
-import ListText from '@components/elements/ListText.vue'
+import ListText from '@/components/elements/ListText.vue'
 
 const localVue = createLocalVue()
+let wrapper
 
 describe('ListText Component Tests', () => {
-  let wrapper
-
   it('Snapshot test', () => {
     const Constructor = Vue.extend(ListText)
     const vm = new Constructor().$mount()

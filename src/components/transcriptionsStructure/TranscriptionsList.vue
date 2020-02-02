@@ -11,13 +11,13 @@
 
 <script>
   import { mapActions } from 'vuex'
-  import TranscriptionsListRow from '@/components/transcriptionsStructure/TranscriptionsListRow.vue'
+  import transcriptionsListRow from '@/components/transcriptionsStructure/TranscriptionsListRow.vue'
   import addRowSvg from '@/assets/images/add-row.svg'
 
   export default {
     name: 'Transcriptions-list',
     components: {
-      TranscriptionsListRow,
+      transcriptionsListRow,
       addRowSvg,
     },
     props: {

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListText Component Tests Snapshot test 1`] = `
+<div>
+  <span
+    class="empty"
+  >
+    
+    Click to add voice
+  
+  </span>
+   
+  <input
+    type="text"
+  />
+   
+  <!---->
+</div>
+`;

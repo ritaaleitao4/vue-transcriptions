@@ -1,5 +1,5 @@
 import axios from 'axios'
-import storeActions from '@/store/storeModules.js'
+import storeActions from '@/store/storeModules'
 
 jest.mock('axios', () => ({
   get: jest.fn(() => new Promise(() => '')),

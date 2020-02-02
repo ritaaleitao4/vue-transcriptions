@@ -1,9 +1,16 @@
+import Vue from 'vue'
 import { createLocalVue, shallowMount } from '@vue/test-utils'
 import Header from '@/components/transcriptionsStructure/Header.vue'
 
 const localVue = createLocalVue()
 const wrapper = shallowMount(Header, {
   localVue,
+})
+
+it('Snapshot test', () => {
+  const Constructor = Vue.extend(Header)
+  const vm = new Constructor().$mount()
+  expect(vm.$el).toMatchSnapshot()
 })
 
 describe('Header Test', () => {
@@ -17,4 +24,3 @@ describe('Header Test', () => {
     expect(wrapper.emitted('fetchData')).toBeTruthy()
   })
 })
-
