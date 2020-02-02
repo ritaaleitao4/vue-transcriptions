@@ -12,10 +12,7 @@
   export default {
     name: 'List-text',
     props: {
-      value: {
-        required: true,
-        type: String,
-      },
+      value: String,
       element: String,
       type: String,
     },

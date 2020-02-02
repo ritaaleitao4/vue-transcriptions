@@ -1,7 +1,7 @@
 <template>
   <div class="check-item">
-    <input type="checkbox" :id="id">
-    <label :for="id">
+    <input type="checkbox" :id="checkboxId">
+    <label :for="checkboxId">
       <checked-svg/>
     </label>
   </div>
@@ -15,7 +15,7 @@
       checkedSvg,
     },
     props: {
-      id: {
+      checkboxId: {
         required: true,
         type: Number,
       },

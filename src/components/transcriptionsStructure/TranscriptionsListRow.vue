@@ -1,6 +1,6 @@
 <template>
   <div class="list-item">
-    <Checkbox :id="item.id" class="checkbox"></Checkbox>
+    <Checkbox :checkbox-id="item.id" class="checkbox"></Checkbox>
     <person-svg class="person"/>
     <div class="list-item__container">
       <list-text v-model="item.voice" element="voice"></list-text>

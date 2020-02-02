@@ -21,7 +21,7 @@ export default {
     },
   },
   mutations: {
-    modifyListData(state, payload) {
+    setDataList(state, payload) {
       state.transcriptionsData = payload
     },
     deleteListItem(state, payload) {
@@ -60,7 +60,7 @@ export default {
     async actionGetTranscriptionsData(context) {
       await transcriptionsEndpoints.getTranscriptions()
         .then((response) => {
-          context.commit('modifyListData', response.data)
+          context.commit('setDataList', response.data)
         })
         .catch((error) => {
           if (error) {
@@ -68,15 +68,15 @@ export default {
           }
         })
     },
-    removeTranscriptionMessages(context) {
-      context.commit('displayError', '')
-      context.commit('displaySucecss', '')
-    },
     addNewTranscription(context) {
       context.commit('addListItem')
     },
     deleteTranscription(context, payload) {
       context.commit('deleteListItem', payload)
+    },
+    removeTranscriptionMessages(context) {
+      context.commit('displayError', '')
+      context.commit('displaySucecss', '')
     },
     async uploadTranscriptionsData(context, payload) {
       const invalidFields = payload.filter((element) => Object.values(element).some((x) => x === null || x === '')).length
