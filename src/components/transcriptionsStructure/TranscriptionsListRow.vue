@@ -49,7 +49,7 @@
     flex-flow: row nowrap;
     padding: $default-padding 53px $default-padding $default-padding;
 
-    &:hover &--delete {
+    &:hover .delete {
       visibility: visible;
       opacity: 1;
     }
