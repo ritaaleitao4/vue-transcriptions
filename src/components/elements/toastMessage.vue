@@ -2,10 +2,7 @@
   <transition name="fade">
     <div class="toast" v-if="errorMessage || successMessage" >
       <section class="toast-message" :class="infoMessage">
-        <button aria-pressed="false"
-                role="button"
-                class="toast-message--dismiss"
-                @click="dismissToast()">
+        <button class="toast-message--dismiss" @click="dismissToast()">
           x
         </button>
         <h3 class="toast-message--title">
@@ -58,7 +55,7 @@
     right: 11px;
     top: 82px;
     z-index: 10;
-    font-family: $font-m-medium;
+    font-family: $font-MS-medium;
 
     &-message {
       width: 200px;

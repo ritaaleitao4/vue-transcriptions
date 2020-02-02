@@ -3,8 +3,8 @@
     <checkbox-item :checkbox-id="item.id" class="checkbox"/>
     <person-svg class="person"/>
     <div class="list-item__container">
-      <list-text v-model="item.voice" element="voice"/>
-      <list-text v-model="item.text" element="text" type="textArea"/>
+      <edit-text v-model="item.voice" element="voice"/>
+      <edit-text v-model="item.text" element="text" type="textArea"/>
     </div>
     <delete-svg class="delete" @click="deleteData(item.id)"/>
   </div>
@@ -13,7 +13,7 @@
 <script>
   import { mapActions } from 'vuex'
   import checkboxItem from '@/components/elements/CheckboxItem.vue'
-  import listText from '@/components/elements/ListText.vue'
+  import EditText from '@/components/elements/EditText.vue'
   import deleteSvg from '@/assets/images/delete.svg'
   import personSvg from '@/assets/images/person.svg'
 
@@ -21,7 +21,7 @@
     name: 'Transcriptions-list-row',
     components: {
       checkboxItem,
-      listText,
+      EditText,
       deleteSvg,
       personSvg,
     },
@@ -49,7 +49,7 @@
     flex-flow: row nowrap;
     padding: $default-padding 53px $default-padding $default-padding;
 
-    &:hover .delete {
+    &:hover &--delete {
       visibility: visible;
       opacity: 1;
     }
@@ -77,7 +77,7 @@
         cursor: pointer;
         visibility: hidden;
         opacity: 0;
-        transition: opacity $default-time $default-easing;
+        transition: opacity $default-time ease-in-out;
       }
     }
   }

@@ -66,9 +66,9 @@
 <style scoped lang="scss">
   .container {
     width: 100%;
+    position: relative;
     min-height: 100vh;
     overflow: hidden;
-    position: relative;
     background-color: $color-bg;
 
     section {

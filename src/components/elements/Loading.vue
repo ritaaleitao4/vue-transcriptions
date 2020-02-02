@@ -25,8 +25,8 @@
 
 <style scoped lang="scss">
   $color-list: (
-    purple: $checkbox-color,
-    gray: $header-title-color,
+    purple: $color-checkbox,
+    gray: $color-header-title,
   );
 
   .loading {
@@ -52,8 +52,7 @@
       text-indent: -9999em;
       border: 5px solid $color-white;
       border-radius: 50%;
-      animation: load $default-time-loading infinite linear;
-
+      animation: load $loading-time infinite linear;
 
       @each $key, $val in $color-list {
         &--#{$key} {
@@ -66,7 +65,6 @@
   @keyframes load {
     to { transform: rotate(360deg) }
   }
-
 
   .fade-enter-active,
   .fade-leave-active {

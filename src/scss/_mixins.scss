@@ -1,0 +1,19 @@
+@mixin header-title {
+  font-family: $font-MS-medium;
+  font-weight: 500;
+  font-size: 18px;
+  color: $color-header-title;
+}
+@mixin list-title {
+  font-family: $font-MS-semibold;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: $color-list-title;
+}
+@mixin list-text {
+  font-family: $font-OS;
+  font-size: 16px;
+  line-height: 22px;
+  color: $color-list-text;
+}

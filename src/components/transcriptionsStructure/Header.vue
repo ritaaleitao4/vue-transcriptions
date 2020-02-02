@@ -35,7 +35,7 @@
   header {
     background-color: #FFFFFF;
     width: 100%;
-    height: $default-header-height;
+    height: $header-height;
     box-shadow: 0 1px 2px 0 rgba(0,0,0,0.24), 0 1px 3px 0 rgba(0,0,0,0.12);
     display: flex;
     flex-flow: row nowrap;
@@ -43,7 +43,7 @@
 
     .header-content {
       width: 100%;
-      max-width: $default-header-width;
+      max-width: $header-width;
       padding: 0 $default-padding;
       display: flex;
       flex-flow: row nowrap;

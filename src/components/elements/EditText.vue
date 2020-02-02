@@ -3,8 +3,17 @@
     <span :class="[{'empty': !value}, {'hide': activeInput}, element]" @click="toogleActiveInput">
       {{ setText }}
     </span>
-    <input v-if="type !== 'textArea'" ref="input" type="text" :value="value" @input="setValue" @blur="toogleActiveInput">
-    <textarea v-if="type === 'textArea'" ref="input" :value="value" @input="setValue" @blur="toogleActiveInput"></textarea>
+    <input v-if="type !== 'textArea'"
+           ref="input"
+           type="text"
+           :value="value"
+           @input="setValue"
+           @blur="toogleActiveInput">
+    <textarea v-if="type === 'textArea'"
+              ref="input" :value="value"
+              @input="setValue"
+              @blur="toogleActiveInput">
+    </textarea>
   </div>
 </template>
 
@@ -26,11 +35,9 @@
         if (this.value) {
           return this.value
         }
-
         if (this.type === 'textArea') {
           return 'Click to add text'
         }
-
         return 'Click to add voice'
       },
     },

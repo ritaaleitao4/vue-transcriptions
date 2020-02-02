@@ -24,19 +24,23 @@
 </script>
 
 <style scoped lang="scss">
-  .check-item {
-    input {
-      display: none;
+  input {
+    display: none;
 
-      &:checked + label {
-        background-color: $checkbox-color;
+    &:checked + label {
+      background-color: $color-checkbox;
 
-        &::before {
-          display: block;
-        }
+      &::before {
+        display: block;
+      }
+
+      svg {
+        display: block;
       }
     }
+  }
 
+  .check-item {
     label {
       position: relative;
       width: 16px;
@@ -44,11 +48,13 @@
       border-radius: 2px;
       display: flex;
       box-sizing: border-box;
-      border: 2px solid $checkbox-color;
+      border: 2px solid $color-checkbox;
       cursor: pointer;
       margin: 5px 16px 0 0;
 
       svg {
+        display: none;
+        width: 100%;
         position: relative;
         left: 50%;
         top: 50%;

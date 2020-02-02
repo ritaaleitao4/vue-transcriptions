@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import { createLocalVue, shallowMount } from '@vue/test-utils'
-import ListText from '@/components/elements/ListText.vue'
+import EditText from '@/components/elements/EditText.vue'
 
 const localVue = createLocalVue()
 let wrapper
 
-describe('ListText Component Tests', () => {
+describe('EditText Component Tests', () => {
   it('Snapshot test', () => {
-    const Constructor = Vue.extend(ListText)
+    const Constructor = Vue.extend(EditText)
     const vm = new Constructor().$mount()
     expect(vm.$el).toMatchSnapshot()
   })
@@ -16,7 +16,7 @@ describe('ListText Component Tests', () => {
     const value = 'Value of title'
     const type = ''
 
-    wrapper = shallowMount(ListText, {
+    wrapper = shallowMount(EditText, {
       localVue,
       propsData: { value, type },
     })
@@ -30,7 +30,7 @@ describe('ListText Component Tests', () => {
     const value = 'Value of text'
     const type = 'textArea'
 
-    wrapper = shallowMount(ListText, {
+    wrapper = shallowMount(EditText, {
       localVue,
       propsData: { value, type },
     })
@@ -42,7 +42,7 @@ describe('ListText Component Tests', () => {
 
   it('should emit event on editing', () => {
     const value = 'Value'
-    wrapper = shallowMount(ListText, {
+    wrapper = shallowMount(EditText, {
       localVue,
       propsData: { value },
     })
@@ -53,7 +53,7 @@ describe('ListText Component Tests', () => {
 
   it('should toogle active input', () => {
     const value = ''
-    wrapper = shallowMount(ListText, {
+    wrapper = shallowMount(EditText, {
       localVue,
       propsData: { value },
     })
@@ -69,7 +69,7 @@ describe('ListText Component Tests', () => {
     const type = 'textArea'
     const value = 'Value of text'
 
-    wrapper = shallowMount(ListText, {
+    wrapper = shallowMount(EditText, {
       localVue,
       propsData: { type, value },
     })

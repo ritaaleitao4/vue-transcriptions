@@ -50,12 +50,12 @@
         position: relative;
         margin: 0;
         background-color: #FFFFFF;
-        border-top: 1px solid $list-border-color;
-        border-right: 1px solid $list-border-color;
-        border-left: 1px solid $list-border-color;
+        border-top: 1px solid $color-list-border;
+        border-right: 1px solid $color-list-border;
+        border-left: 1px solid $color-list-border;
         display: flex;
         &:last-child {
-          border-bottom: 1px solid $list-border-color;
+          border-bottom: 1px solid $color-list-border;
         }
       }
     }
@@ -69,7 +69,7 @@
     }
 
     .list-anim-enter-active, .list-anim-leave-active {
-      transition: all $default-time $default-easing;
+      transition: all $default-time ease-in-out;
     }
 
     .list-anim-enter, .list-anim-leave-to {

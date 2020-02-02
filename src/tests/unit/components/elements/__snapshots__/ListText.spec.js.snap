@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ListText Component Tests Snapshot test 1`] = `
+exports[`EditText Component Tests Snapshot test 1`] = `
 <div>
   <span
     class="empty"

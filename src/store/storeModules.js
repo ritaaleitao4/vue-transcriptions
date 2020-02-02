@@ -28,12 +28,12 @@ export default {
       state.transcriptionsData = _.remove(state.transcriptionsData, (arr) => arr.id !== payload)
     },
     addListItem(state) {
-      const listItem = {
-        id: _.random(100000000, 100000000000000),
+      const transcriptionItem = {
+        id: _.random(90000, 900000000000),
         voice: '',
         text: '',
       }
-      state.transcriptionsData.push(listItem)
+      state.transcriptionsData.push(transcriptionItem)
     },
     displaySucecss(state, payload) {
       if (state.messages.errorMessage) {

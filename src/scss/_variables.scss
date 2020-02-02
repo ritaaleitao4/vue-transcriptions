@@ -1,48 +1,28 @@
 // fonts
-$font-os: 'Open Sans', Helvetica, Arial, sans-serif;
-$font-m-medium: 'Montserrat Medium', Helvetica, Arial, sans-serif;
-$font-m-semibold: 'Montserrat SemiBold', Helvetica, Arial, sans-serif;
-
-// timings and easings
-$default-time: 250ms;
-$default-time-loading: 800ms;
-$default-easing: ease-in-out;
-
-// dimensions
-$default-header-height: 69px;
-$default-header-width: 690px;
-$default-padding: 24px;
-$default-margin: 24px;
-$content-width: 786px;
+$font-OS: 'Open Sans', sans-serif;
+$font-MS-medium: 'Montserrat Medium', sans-serif;
+$font-MS-semibold: 'Montserrat SemiBold', sans-serif;
 
 // colors
 $color-white: #fff;
 $color-bg: #F6F7F8;
-$list-border-color: #EAEDEF;
-$checkbox-color: #859EFF;
-$header-title-color: #414C5E;
-$list-title-color: #566074;
-$list-text-color: #778195;
+$color-list-border: #EAEDEF;
+$color-checkbox: #859EFF;
+$color-header-title: #414C5E;
+$color-list-title: #566074;
+$color-list-text: #778195;
 $color-error: rgba(255, 119, 131, 0.7);
 $color-success: rgba(130, 191, 151, 0.8);
 
-// mixins
-@mixin header-title {
-  font-family: $font-m-medium;
-  font-weight: 500;
-  font-size: 18px;
-  color: $header-title-color;
-}
-@mixin list-title {
-  font-family: $font-m-semibold;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 22px;
-  color: $list-title-color;
-}
-@mixin list-text {
-  font-family: $font-os;
-  font-size: 16px;
-  line-height: 22px;
-  color: $list-text-color;
-}
+// dimensions
+$header-height: 69px;
+$header-width: 690px;
+$content-width: 786px;
+$default-padding: 24px;
+$default-margin: 24px;
+
+//times
+$default-time: 250ms;
+$loading-time: 800ms;
+
+
