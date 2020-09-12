@@ -1,6 +1,6 @@
 ## Frontend Challenge - Rita Leitão
 
-Demo URL: https://frontend-challange-rita-leitao.netlify.com
+Demo URL: https://transcriptions.netlify.app
 
 ### Project setup
 ```
