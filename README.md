@@ -1,4 +1,4 @@
-## Frontend Challenge - Rita Leitão
+## Transcriptions - Rita Leitão
 
 Demo URL: https://transcriptions.netlify.app
 
